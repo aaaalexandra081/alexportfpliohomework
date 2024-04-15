@@ -26,6 +26,41 @@ a:hover {
     text-decoration: none;
 }
 
+.home{
+ width: 100%;
+ margin:  auto;
+ height: 150vh;
+ background: url(../images/index_bg.png) no-repeat;
+ background-size: contain;
+ text-align: center;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+
+}
+.home button{
+    width: 300px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    height: 60px;
+    border: none;
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+}
+.home button a{
+   font-size: 30px;
+
+   font-weight:bold;
+   color: black;
+}
+
+
 .nav {
     width: 100%;
     height: 120px;
