@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 800px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    height: 120px;
+    margin: 0;
+}
+
+.nav ul {
+    display: flex; /* 使用 flex 布局 */
+    justify-content: space-around; /* 水平居中排列 */
+    align-items: center; /* 垂直居中排列 */
+    width: 100%;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    line-height: 120px;
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.nav ul li a {
+    color: black;
+    font-size: 35px;
+}
+
+.selected a {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 35px;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+}
+
+.avatar {
+    width: 90%;
+    margin: 100px auto;
+    text-align: right;
+}
+
+.other {
+    width: 90%;
+    margin: 50px auto;
+    text-align: right;
+    margin-left: 100px;
+}
+
+.music {
+    width: 90%;
+    margin: 50px auto;
+    text-align: right;
+}
+
+.avatar img {
+    width: 350px;
+}
+
+.other video {
+    height: 500px;
+    width: 800px;
+    margin-left: 100px;
+}
+
+.info1,
+.info2 {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 0px;
+    clear: both;
+}
+
+.music_text {
+    color: grey;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+.music ul {
+    width: 65%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.music ul li {
+  display: flex;
+    float: left;
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+       margin-bottom: 20px
+}
+
+.music ul li img {
+    width: 65%;
+}
+
+.hand {
+    width: 90%;
+    margin: 50px auto;
+    text-align: right;
+}
+
+.hand_item {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.hand_left {
+    float: left;
+    width: 40%;
+    text-align: left;
+    font-size: 17.5px;
+}
+
+.hand_right {
+    float: left;
+    width: 60%;
+}
+
+.hand_right img {
+    width: 150px;
+    margin-left: 100px;
+}
